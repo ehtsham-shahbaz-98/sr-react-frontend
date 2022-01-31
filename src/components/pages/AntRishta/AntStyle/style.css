@@ -1,0 +1,95 @@
+.test-rishta {
+  background-image: linear-gradient(-20deg, #5c0036 0%, #00025a 100%);
+  color: #aaaaaa;
+  font-weight: 700;
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s;
+}
+
+.test-rishta h3 {
+  text-align: center;
+  color: white;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.input-field.input-outlined-secondary > input {
+  border: 1px solid white;
+  padding: 12px 16px 14px;
+  width: calc(100% - 2.5rem);
+  float: none;
+  display: block;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.15s;
+  transition: border-color 0.15s;
+}
+
+.input-field.input-outlined-secondary > input:focus:not([readonly]) {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 4px solid #33f8ff !important;
+  color: white;
+}
+
+.input-field.input-outlined-secondary > select {
+  border: 1px solid black;
+  font-size: 16px;
+  font-family: "poppins";
+  cursor: pointer;
+  width: 100%;
+  float: none;
+  display: block;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.15s;
+  transition: border-color 0.15s;
+  height: 70px;
+}
+
+.input-field.input-outlined-secondary > select:focus:not([readonly]) {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 4px solid #33f8ff !important;
+}
+
+.input-field.input-outlined-secondary > label {
+  left: 27px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: 15%;
+  font-size: 16px;
+  width: auto !important;
+}
+
+.input-field.input-outlined-secondary > label.active {
+  margin-top: 1%;
+  font-size: 14px;
+  color: #33f8ff;
+}
+
+@media screen and (max-width: 500px) {
+  .input-field.input-outlined-secondary > label {
+    font-size: 15px;
+  }
+}
+
+.input-field.text-area > textarea:focus:not([readonly]) {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

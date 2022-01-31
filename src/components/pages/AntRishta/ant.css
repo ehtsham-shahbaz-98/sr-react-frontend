@@ -1,0 +1,187 @@
+.heading {
+  font-weight: 700;
+}
+
+.hidden {
+  display: none;
+}
+
+.antrishta-container {
+  width: 100%;
+  max-width: initial;
+  min-height: 100vh;
+  height: inherit;
+}
+
+.antrishta-container > .row {
+  margin: 0;
+}
+
+.antrishta-container > .col {
+  padding: 0;
+}
+
+.antrishta-container {
+  background-color: #f1f1f1;
+  color: black;
+  font-weight: 600;
+}
+
+.stepsBody {
+  height: 555px;
+  min-width: 105px;
+  position: fixed;
+  margin-bottom: 10px;
+}
+
+.stepsBody .ant-steps {
+  margin-top: 2%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 728px) {
+  .stepsBody .ant-steps {
+    /* margin-top: 1%; */
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+}
+
+.stepsAction {
+  margin-top: 1px;
+}
+
+.stepstitle {
+  background-color: #ffffff;
+  padding: 15px;
+  height: inherit;
+}
+
+@media screen and (max-width: 700px) {
+  .stepstitle {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}
+
+.stepsContent {
+  text-align: center;
+}
+
+.ant-steps-item-title {
+  @media screen and (max-width: 500px) {
+    font-size: 5px;
+  }
+}
+
+.title-font > title {
+  color: rgb(0, 0, 0) !important;
+  font-weight: 700 !important;
+}
+
+.steps-content {
+  margin-top: 16px;
+  padding-top: 80px;
+  text-align: center;
+  color: #e9e9e9;
+}
+
+.input-field.input-outlined-secondary > select {
+  color: black;
+}
+
+.rishta-form-input {
+  width: 100%;
+}
+
+.rishta-form-input > input {
+  width: 100%;
+  /* height: 50px; */
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+}
+
+.rishta-form-input > input::-webkit-input-placeholder {
+  color: #000000;
+  font-weight: 500;
+}
+
+.rishta-form-input > input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #000000;
+  font-weight: 500;
+}
+
+.rishta-form-input > input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #000000;
+  font-weight: 500;
+}
+
+.rishta-form-input > input:-ms-input-placeholder {
+  color: #000000;
+  font-weight: 500;
+}
+
+.rishta-form-input > input::placeholder {
+  color: #000000;
+  font-weight: 500;
+}
+
+.rishta-form-input {
+  width: 100%;
+}
+
+.rishta-form-input > select {
+  width: 100%;
+  height: 50px;
+  /* padding: 2%; */
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+}
+
+.rishta-form-input > select:hover {
+  cursor: pointer;
+}
+
+.rishta-form-textarea > textarea {
+  height: 200px;
+  color: #000000;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.rishta-form-textarea > textarea::-webkit-input-placeholder {
+  color: #2c2c2c;
+}
+
+.rishta-form-textarea > textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #2c2c2c;
+}
+
+.rishta-form-textarea > textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #2c2c2c;
+}
+
+.rishta-form-textarea > textarea:-ms-input-placeholder {
+  color: #2c2c2c;
+}
+
+.rishta-form-textarea > textarea::placeholder {
+  color: #2c2c2c;
+}

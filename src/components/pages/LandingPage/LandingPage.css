@@ -1,0 +1,1351 @@
+.landingContainer {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  padding: 1.5%;
+  transition: all 0.3s ease-out;
+}
+
+.landingContainerDark {
+  height: auto;
+  width: 100%;
+  background-color: #191919;
+  padding: 1.5%;
+}
+
+.landingContainer .heroContainer .leftImageContainer > img {
+  width: 100%;
+  height: 450px;
+  margin-top: 5%;
+}
+
+.heroContainer {
+  color: white;
+  border-radius: 50px;
+  width: 100%;
+  height: 550px;
+  background: #9c4ea3;
+  background: -webkit-linear-gradient(to right, #eaafc8, #9c4ea3);
+  background: linear-gradient(to right, #eaafc8, #9c4ea3);
+}
+
+.heroContainer .rightContentContainer .contentHeading {
+  color: white;
+  margin-top: 15%;
+  font-weight: 700;
+}
+
+.heroContainer .rightContentContainer .contentHeading h1 {
+  color: white;
+  font-weight: 700;
+}
+
+.heroContainer .rightContentContainer .contentPara {
+  font-size: 20px;
+  width: 80%;
+}
+
+.heroContainer .rightContentContainer .contentButton {
+  margin-top: 8%;
+}
+
+.heroContainer .rightContentContainer .contentButton > .btn-link {
+  background-color: #f3f3f3;
+  color: black;
+  border: none;
+  font-weight: 700;
+  width: 30%;
+  padding: 4%;
+  border-radius: 10px;
+  font-size: 18px;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+
+.heroContainer .rightContentContainer .contentButton > .btn-link:hover {
+  background-color: #fff;
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.landingContainer .sectionContainer {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.landingContainer .sectionContainer .smallHeading {
+  text-transform: uppercase;
+}
+
+.landingContainer .sectionContainer .smallHeading h5 {
+  background: -webkit-linear-gradient(#ff00ea, #bc00f5);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+}
+
+.landingContainer .sectionContainer .sectionHeading h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.cardsSection {
+  padding: 2%;
+}
+
+.cardsSection .cardBodyOne .cardText {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.cardsSection .cardBodyOne .cardText > p {
+  margin-top: 10%;
+}
+
+.cardsSection .cardBodyTwo .cardText > p {
+  margin-top: 10%;
+}
+
+.cardsSection .cardBodyThree .cardText > p {
+  margin-top: 10%;
+}
+
+.cardsSection .cardBodyTwo .cardText {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.cardsSection .cardBodyThree .cardText {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.cardsSection .cardBodyOne {
+  box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+  padding: 3%;
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+
+.cardsSection .cardBodyTwo {
+  box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+  padding: 3%;
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+
+.cardsSection .cardBodyThree {
+  box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+  padding: 3%;
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+
+.cardsSection .cardBodyOne:hover {
+  box-shadow: none;
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.cardsSection .cardBodyTwo:hover {
+  box-shadow: none;
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.cardsSection .cardBodyThree:hover {
+  box-shadow: none;
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+.statsContainer {
+  padding: 3%;
+}
+
+.statsContainer .statsContent {
+  padding: 5%;
+}
+
+.statsContainer .statsBody .firstStat {
+  padding: 5%;
+  box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+  border-radius: 20px;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+
+.statsContainer .statsBody .firstStat:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.statsContainer .statsBody .firstStat > p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.statsContainer .statsBody .secondStat {
+  padding: 5%;
+  box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+  border-radius: 20px;
+  margin-top: 3%;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+
+.statsContainer .statsBody .secondStat:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.statsContainer .statsBody .secondStat > p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.statsContainer .statsBody .thirdStat {
+  padding: 5%;
+  box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+  border-radius: 20px;
+  margin-top: 3%;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+
+.statsContainer .statsBody .thirdStat:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.statsContainer .statsBody .thirdStat > p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.statsContainer .statsBody .fourthStat {
+  padding: 5%;
+  box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+  border-radius: 20px;
+  margin-top: 3%;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+
+.statsContainer .statsBody .fourthStat:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.statsContainer .statsBody .fourthStat > p {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.statsContainer .statHeading h2 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.statsContainer .statPara p {
+  font-size: 20px;
+}
+
+.statsContainer .statsContent .statButton > button {
+  padding: 4%;
+  border-radius: 25px;
+
+  font-weight: 700;
+  font-size: 20px;
+  width: 200px;
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #ff00ea, #bc00f5);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+  color: #ff00ea;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+
+.statsContainer .statsContent .statButton > button:hover {
+  cursor: pointer;
+  box-shadow: none;
+  color: white;
+  transform: translateY(-3px);
+  transition: 0.3s;
+}
+
+.reasonsContainer {
+  margin-top: 5%;
+}
+
+.landingContainer .reasonsContainer .reasonsRow {
+  padding-left: 5%;
+}
+
+.landingContainer .reasonsContainer .reasonsRow .reasonsImg {
+  padding: 15%;
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.027) 0px 25px 50px -12px;
+}
+
+.landingContainer .reasonsContainer .reasonsRow .reasonsHeading > h6 {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.landingContainer .reasonsContainer .reasonsRow .reasonsPara {
+  font-size: 20px;
+  padding-right: 15%;
+}
+
+.landingContainer .pricingContainer .firstPricing {
+  padding: 10%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 3%;
+}
+
+.landingContainer .pricingContainer .firstPricing .priceHeading > h3 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.landingContainer .pricingContainer .firstPricing .priceHeading h3 > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.landingContainer .pricingContainer .firstPricing .priceTitle > h3 {
+  font-size: 30px;
+}
+
+.landingContainer .pricingContainer .firstPricing .pricePara > p {
+  font-size: 20px;
+}
+
+.landingContainer .pricingContainer .firstPricing .priceLine {
+  padding-right: 20%;
+}
+
+.landingContainer .pricingContainer .firstPricing .priceLine > hr {
+  border: 1px solid #f0f0f0;
+}
+
+.landingContainer .pricingContainer .firstPricing .priceButton > button {
+  border: none;
+  color: #1b69b8;
+  padding: 5%;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 80%;
+  border: 1px solid #ababff;
+  background-color: white;
+}
+
+.landingContainer .pricingContainer .firstPricing .priceButton > button:hover {
+  cursor: pointer;
+  background-color: #1b69b8;
+  color: white;
+  transition: 0.2s;
+}
+
+.landingContainer .pricingContainer .firstPricing .pricePoints {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.landingContainer .pricingContainer .secondPricing .pricePoints {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.landingContainer .pricingContainer .thirdPricing .pricePoints {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.landingContainer .pricingContainer .firstPricing .pricePoints .point {
+  padding-top: 4%;
+}
+
+.landingContainer .pricingContainer .secondPricing .pricePoints .point {
+  padding-top: 4%;
+}
+
+.landingContainer .pricingContainer .thirdPricing .pricePoints .point {
+  padding-top: 4%;
+}
+
+.landingContainer .pricingContainer .firstPricing .pricePoints .point > h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.landingContainer .pricingContainer .secondPricing .pricePoints .point > h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.landingContainer .pricingContainer .thirdPricing .pricePoints .point > h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.landingContainer .pricingContainer .secondPricing .priceButton > button {
+  border: none;
+  color: white;
+  padding: 5%;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 80%;
+  border: 1px solid #ababff;
+  background-color: #1b69b8;
+}
+
+.landingContainer .pricingContainer .secondPricing .priceButton > button:hover {
+  cursor: pointer;
+}
+
+.landingContainer .pricingContainer .thirdPricing .priceButton > button:hover {
+  cursor: pointer;
+  background-color: #1b69b8;
+  color: white;
+  transition: 0.2s;
+}
+
+.landingContainer .pricingContainer .thirdPricing .priceButton > button {
+  border: none;
+  color: #1b69b8;
+  padding: 5%;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 80%;
+  border: 1px solid #ababff;
+  background-color: white;
+}
+
+.landingContainer .pricingContainer .secondPricing .priceLine > hr {
+  border: 1px solid #f0f0f0;
+}
+
+.landingContainer .pricingContainer .thirdPricing .priceLine > hr {
+  border: 1px solid #f0f0f0;
+}
+
+.landingContainer .pricingContainer .secondPricing {
+  padding: 10%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 3%;
+}
+
+.landingContainer .pricingContainer .secondPricing .priceHeading > h3 {
+  font-weight: 700;
+  color: #4aaa5f;
+  font-size: 35px;
+}
+
+.landingContainer .pricingContainer .secondPricing .pricePara > p {
+  font-size: 20px;
+}
+
+.landingContainer .pricingContainer .secondPricing .priceHeading h3 > span {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.landingContainer .pricingContainer .secondPricing .priceTitle > h3 {
+  font-size: 30px;
+}
+
+.landingContainer .pricingContainer .secondPricing .priceLine {
+  padding-right: 20%;
+}
+
+.landingContainer .pricingContainer .thirdPricing {
+  padding: 10%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-radius: 3%;
+}
+
+.landingContainer .pricingContainer .thirdPricing .priceHeading > h3 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.landingContainer .pricingContainer .thirdPricing .pricePara > p {
+  font-size: 20px;
+}
+
+.landingContainer .pricingContainer .thirdPricing .priceHeading h3 > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.landingContainer .pricingContainer .thirdPricing .priceTitle > h3 {
+  font-size: 30px;
+}
+
+.landingContainer .pricingContainer .thirdPricing .priceLine {
+  padding-right: 20%;
+}
+
+@media only screen and (max-width: 992px) {
+  .cardsSection {
+    padding: 1%;
+  }
+  .landingContainer .pricingContainer .secondPricing {
+    margin-top: 2%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing {
+    margin-top: 2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .heroContainer {
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+    background: #9c4ea3;
+    background: -webkit-linear-gradient(to right, #eaafc8, #9c4ea3);
+    background: linear-gradient(to right, #eaafc8, #9c4ea3);
+  }
+  .heroContainer .rightContentContainer .contentHeading {
+    color: white;
+    margin-top: 28%;
+    font-weight: 700;
+  }
+
+  .heroContainer .rightContentContainer .contentHeading h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+  }
+
+  .heroContainer .rightContentContainer .contentPara {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .heroContainer .rightContentContainer .contentButton > button {
+    background-color: #f3f3f3;
+    color: black;
+    border: none;
+    font-weight: 700;
+    width: 30%;
+    padding: 3%;
+    border-radius: 10px;
+    font-size: 18px;
+    transform: translateY(0px);
+    transition: 0.3s;
+  }
+
+  .heroContainer .rightContentContainer .contentButton > button:hover {
+    background-color: #fff;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+
+  .heroContainer .rightContentContainer .contentButton {
+    margin-top: 10%;
+  }
+
+  .heroContainer .rightContentContainer .contentButton > .btn-link {
+    background-color: #f3f3f3;
+    color: black;
+    border: none;
+    font-weight: 700;
+    width: 30%;
+    padding: 5%;
+    border-radius: 10px;
+    font-size: 18px;
+    transform: translateY(0px);
+    transition: 0.3s;
+  }
+
+  .heroContainer .rightContentContainer .contentButton > .btn-link:hover {
+    background-color: #fff;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+  .landingContainer .sectionContainer {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  .landingContainer .sectionContainer .smallHeading {
+    text-transform: uppercase;
+  }
+
+  .landingContainer .sectionContainer .smallHeading h5 {
+    background: -webkit-linear-gradient(#ff00ea, #bc00f5);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+  }
+
+  .landingContainer .sectionContainer .sectionHeading h1 {
+    font-weight: 700;
+    font-size: 33px;
+  }
+
+  .cardsSection {
+    padding: 1%;
+  }
+
+  .statsContainer {
+    padding: 1%;
+  }
+
+  .statsContainer .statsContent {
+    padding: 4%;
+  }
+
+  .statsContainer .statsBody .firstStat {
+    padding: 4%;
+    box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+    border-radius: 15px;
+    transform: translateY(0px);
+    transition: 0.3s;
+  }
+
+  .statsContainer .statsBody .firstStat:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+
+  .statsContainer .statsBody .firstStat > p {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .statsContainer .statsBody .secondStat {
+    padding: 4%;
+    box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+    border-radius: 15px;
+    transform: translateY(0px);
+    transition: 0.3s;
+    margin-top: 3%;
+  }
+
+  .statsContainer .statsBody .secondStat:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+
+  .statsContainer .statsBody .secondStat > p {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .statsContainer .statsBody .thirdStat {
+    padding: 4%;
+    box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+    border-radius: 15px;
+    transform: translateY(0px);
+    transition: 0.3s;
+    margin-top: 3%;
+  }
+
+  .statsContainer .statsBody .thirdStat:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+
+  .statsContainer .statsBody .thirdStat > p {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .statsContainer .statsBody .fourthStat {
+    padding: 4%;
+    box-shadow: rgba(100, 100, 111, 0.164) 0px 7px 29px 0px;
+    border-radius: 15px;
+    transform: translateY(0px);
+    transition: 0.3s;
+    margin-top: 3%;
+  }
+
+  .statsContainer .statsBody .fourthStat:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+
+  .statsContainer .statsBody .fourthStat > p {
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 25%;
+    margin-top: 5%;
+  }
+
+  .statsContainer .statHeading h2 {
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  .statsContainer .statPara p {
+    font-size: 19px;
+  }
+
+  .statsContainer .statsContent .statButton > button {
+    padding: 5%;
+    border-radius: 20px;
+
+    font-weight: 700;
+    font-size: 20px;
+    width: 200px;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0)
+      ),
+      linear-gradient(101deg, #ff00ea, #bc00f5);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    color: #ff00ea;
+    transform: translateY(0px);
+    transition: 0.3s;
+  }
+
+  .statsContainer .statsContent .statButton > button:hover {
+    cursor: pointer;
+    box-shadow: none;
+    color: white;
+    transform: translateY(-3px);
+    transition: 0.3s;
+  }
+
+  .reasonsContainer {
+    margin-top: 5%;
+  }
+
+  .landingContainer .reasonsContainer .reasonsRow {
+    padding-left: 1%;
+  }
+
+  .landingContainer .reasonsContainer .reasonsRow .reasonsImg {
+    padding: 12%;
+    background-color: #f3f3f3;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.027) 0px 25px 50px -12px;
+  }
+
+  .landingContainer .reasonsContainer .reasonsRow .reasonsHeading > h6 {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .landingContainer .reasonsContainer .reasonsRow .reasonsPara {
+    font-size: 15px;
+    padding-right: 15%;
+  }
+
+  .landingContainer .pricingContainer .firstPricing {
+    padding: 10%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 3%;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceHeading > h3 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceHeading h3 > span {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceTitle > h3 {
+    font-size: 30px;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .pricePara > p {
+    font-size: 18px;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceLine {
+    padding-right: 20%;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceLine > hr {
+    border: 1px solid #f0f0f0;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceButton > button {
+    border: none;
+    color: #1b69b8;
+    padding: 5%;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 80%;
+    border: 1px solid #ababff;
+    background-color: white;
+  }
+
+  .landingContainer
+    .pricingContainer
+    .firstPricing
+    .priceButton
+    > button:hover {
+    cursor: pointer;
+    background-color: #1b69b8;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .pricePoints {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .landingContainer .pricingContainer .secondPricing {
+    margin-top: 2%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing {
+    margin-top: 2%;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .pricePoints {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .pricePoints {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .pricePoints .point {
+    padding-top: 4%;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .pricePoints .point {
+    padding-top: 4%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .pricePoints .point {
+    padding-top: 4%;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .pricePoints .point > h5 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .pricePoints .point > h5 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .pricePoints .point > h5 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceButton > button {
+    border: none;
+    color: white;
+    padding: 5%;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 80%;
+    border: 1px solid #ababff;
+    background-color: #1b69b8;
+  }
+
+  .landingContainer
+    .pricingContainer
+    .secondPricing
+    .priceButton
+    > button:hover {
+    cursor: pointer;
+  }
+
+  .landingContainer
+    .pricingContainer
+    .thirdPricing
+    .priceButton
+    > button:hover {
+    cursor: pointer;
+    background-color: #1b69b8;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceButton > button {
+    border: none;
+    color: #1b69b8;
+    padding: 5%;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 80%;
+    border: 1px solid #ababff;
+    background-color: white;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceLine > hr {
+    border: 1px solid #f0f0f0;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceLine > hr {
+    border: 1px solid #f0f0f0;
+  }
+
+  .landingContainer .pricingContainer .secondPricing {
+    padding: 10%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 3%;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceHeading > h3 {
+    font-weight: 700;
+    color: #4aaa5f;
+    font-size: 35px;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .pricePara > p {
+    font-size: 20px;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceHeading h3 > span {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceTitle > h3 {
+    font-size: 30px;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceLine {
+    padding-right: 20%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing {
+    padding: 10%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 3%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceHeading > h3 {
+    font-weight: 700;
+    font-size: 35px;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .pricePara > p {
+    font-size: 20px;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceHeading h3 > span {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceTitle > h3 {
+    font-size: 30px;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceLine {
+    padding-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .heroContainer {
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+    background: #9c4ea3;
+    background: -webkit-linear-gradient(to right, #eaafc8, #9c4ea3);
+    background: linear-gradient(to right, #eaafc8, #9c4ea3);
+    padding: 10%;
+  }
+  .heroContainer .rightContentContainer .contentHeading {
+    color: white;
+    margin-top: 7%;
+    font-weight: 700;
+  }
+
+  .heroContainer .rightContentContainer .contentHeading h1 {
+    color: white;
+    font-weight: 700;
+  }
+
+  .heroContainer .rightContentContainer .contentPara {
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .heroContainer .rightContentContainer .contentButton {
+    margin-top: 10%;
+  }
+
+  .heroContainer .rightContentContainer .contentButton > .btn-link {
+    background-color: #f3f3f3;
+    color: black;
+    border: none;
+    font-weight: 700;
+    width: 30%;
+    padding: 5%;
+    border-radius: 10px;
+    font-size: 18px;
+    transform: translateY(0px);
+    transition: 0.3s;
+  }
+
+  .heroContainer .rightContentContainer .contentButton > .btn-link:hover {
+    background-color: #fff;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .heroContainer {
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 380px;
+    background: #9c4ea3;
+    background: -webkit-linear-gradient(to right, #eaafc8, #9c4ea3);
+    background: linear-gradient(to right, #eaafc8, #9c4ea3);
+    padding: 6%;
+  }
+  .heroContainer .rightContentContainer .contentHeading {
+    color: white;
+    margin-top: 7%;
+    font-weight: 700;
+  }
+
+  .heroContainer .rightContentContainer .contentHeading h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  .heroContainer .rightContentContainer .contentPara {
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .heroContainer .rightContentContainer .contentButton {
+    margin-top: 10%;
+  }
+
+  .heroContainer .rightContentContainer .contentButton > .btn-link {
+    background-color: #f3f3f3;
+    color: black;
+    border: none;
+    font-weight: 700;
+    width: 100%;
+    padding: 6%;
+    border-radius: 10px;
+    font-size: 18px;
+    transform: translateY(0px);
+    transition: 0.3s;
+  }
+
+  .heroContainer .rightContentContainer .contentButton > .btn-link:hover {
+    background-color: #fff;
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+
+  .landingContainer .pricingContainer .firstPricing {
+    padding: 10%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 3%;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceHeading > h3 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceHeading h3 > span {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceTitle > h3 {
+    font-size: 28px;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .pricePara > p {
+    font-size: 18px;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceLine {
+    padding-right: 20%;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceLine > hr {
+    border: 1px solid #f0f0f0;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .priceButton > button {
+    border: none;
+    color: #1b69b8;
+    padding: 5%;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 80%;
+    border: 1px solid #ababff;
+    background-color: white;
+  }
+
+  .landingContainer
+    .pricingContainer
+    .firstPricing
+    .priceButton
+    > button:hover {
+    cursor: pointer;
+    background-color: #1b69b8;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .pricePoints {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .pricePoints {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .pricePoints {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .pricePoints .point {
+    padding-top: 4%;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .pricePoints .point {
+    padding-top: 4%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .pricePoints .point {
+    padding-top: 4%;
+  }
+
+  .landingContainer .pricingContainer .firstPricing .pricePoints .point > h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .pricePoints .point > h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .pricePoints .point > h5 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceButton > button {
+    border: none;
+    color: white;
+    padding: 5%;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 80%;
+    border: 1px solid #ababff;
+    background-color: #1b69b8;
+  }
+
+  .landingContainer
+    .pricingContainer
+    .secondPricing
+    .priceButton
+    > button:hover {
+    cursor: pointer;
+  }
+
+  .landingContainer
+    .pricingContainer
+    .thirdPricing
+    .priceButton
+    > button:hover {
+    cursor: pointer;
+    background-color: #1b69b8;
+    color: white;
+    transition: 0.2s;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceButton > button {
+    border: none;
+    color: #1b69b8;
+    padding: 5%;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 80%;
+    border: 1px solid #ababff;
+    background-color: white;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceLine > hr {
+    border: 1px solid #f0f0f0;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceLine > hr {
+    border: 1px solid #f0f0f0;
+  }
+
+  .landingContainer .pricingContainer .secondPricing {
+    padding: 10%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 3%;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceHeading > h3 {
+    color: #4aaa5f;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .pricePara > p {
+    font-size: 18px;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceHeading h3 > span {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceTitle > h3 {
+    font-size: 28px;
+  }
+
+  .landingContainer .pricingContainer .secondPricing .priceLine {
+    padding-right: 20%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing {
+    padding: 10%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 3%;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceHeading > h3 {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .pricePara > p {
+    font-size: 18px;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceHeading h3 > span {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceTitle > h3 {
+    font-size: 30px;
+  }
+
+  .landingContainer .pricingContainer .thirdPricing .priceLine {
+    padding-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .heroContainer {
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    background: #9c4ea3;
+    background: -webkit-linear-gradient(to right, #eaafc8, #9c4ea3);
+    background: linear-gradient(to right, #eaafc8, #9c4ea3);
+    padding: 6%;
+  }
+  .heroContainer .rightContentContainer .contentHeading h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .heroContainer {
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    height: 350px;
+    background: #9c4ea3;
+    background: -webkit-linear-gradient(to right, #eaafc8, #9c4ea3);
+    background: linear-gradient(to right, #eaafc8, #9c4ea3);
+    padding: 6%;
+  }
+  .heroContainer .rightContentContainer .contentHeading h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .heroContainer .rightContentContainer .contentPara {
+    font-size: 15px;
+    width: 100%;
+  }
+}

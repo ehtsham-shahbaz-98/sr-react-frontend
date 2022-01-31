@@ -1,0 +1,416 @@
+.MainContainer {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+
+.LeftContainer {
+  /* background-color: white; */
+  height: auto;
+}
+
+.RightContainer {
+  /* background-color: rgb(231, 231, 231); */
+  height: auto;
+}
+
+.ProfileHeader {
+  background-color: #ffffff;
+  height: 350px;
+  border-radius: 25px;
+  border: 2px solid #eee;
+}
+
+.profile-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0;
+  padding: 70px 0;
+  font: 15px "Arial";
+  text-align: center;
+  animation: fadein 3s;
+}
+
+.CoverPhotoBody {
+  position: relative;
+  height: 175px;
+  background-image: url("https://images.unsplash.com/photo-1488330890490-c291ecf62571?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-color: #3aa05c;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.ProfileInfoBody {
+  height: 175px;
+  color: black;
+}
+
+.ProfileInfoBody .profileName {
+  text-align: center;
+}
+
+.ProfileInfoBody .profileName h1 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.ProfileInfoBody .profileName h1 span {
+  text-align: left;
+}
+
+.ProfileInfoBody .profileSub {
+  text-align: center;
+}
+
+.ProfileInfoBody .profileSub h5 {
+  color: gray;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.ProfileInfoBody .profileSub h5 span {
+  text-align: left;
+}
+
+.ProfileInfoBody .profileLocation {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.ProfileInfoBody .profileLocation p {
+  font-size: 10px;
+}
+
+.ProfileInfoBody .profileLocation p span {
+  background-color: #dfdfdf;
+  padding: 3px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+/* .ProfileInfoBody .profileName .editProfile {
+  margin-left: 50%;
+} */
+
+.buttonBody .editProfile .editButton {
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  font-weight: 700;
+  font-size: 15px;
+
+  text-transform: capitalize;
+  box-shadow: none;
+}
+
+.ProfileTabs {
+  background-color: #eee;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+/* .ProfileTabs .tabIndex {
+  /* margin-top: 15px;
+} */
+
+.ProfileTabs .tabIndex h5 {
+  font-size: 15px;
+  font-weight: 700;
+  color: gray;
+  cursor: pointer;
+  padding: 14px;
+}
+
+.TabsInformation {
+  background-color: #ffffff;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #eee;
+}
+
+.AboutMe {
+  background-color: #ffffff;
+  height: 100px;
+  border-radius: 8px;
+  border: 2px solid #eee;
+}
+
+.ExtraInfo {
+  background-color: #ffffff;
+  height: 350px;
+  border-radius: 8px;
+  border: 2px solid #eee;
+}
+
+.AdditionalDetails {
+  background-color: #ffffff;
+  height: 550px;
+  border-radius: 8px;
+  border: 2px solid #eee;
+}
+
+.AdditionalDetails .additionalHeading {
+  /* text-align: center; */
+  padding: 20px;
+}
+
+.AdditionalDetails .additionalHeading h1 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.AdditionalDetails .additionalEdit {
+  /* padding-right: 10px; */
+  padding-top: 15px;
+}
+
+.AdditionalDetails .additionalEdit .editButton {
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  font-weight: 700;
+  font-size: 15px;
+
+  text-transform: capitalize;
+  box-shadow: none;
+}
+
+.TabsInformation .tabSection {
+  padding: 20px;
+}
+
+.TabsInformation .tabInfo {
+  font-size: 20px;
+}
+
+.TabsInformation .tabSection h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.TabsInformation .tabEdit {
+  margin-top: 1%;
+}
+
+.TabsInformation .tabEdit .editButton {
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  font-weight: 700;
+  font-size: 15px;
+
+  text-transform: capitalize;
+  box-shadow: none;
+}
+
+/* .TabsInformation .AboutMe {
+  padding: 30px;
+} */
+
+.AboutMe .aboutHeading {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.AboutMe .aboutHeading h1 {
+  font-size: 25px;
+  font-weight: 700;
+  /* padding: 10px; */
+}
+
+.AboutMe .aboutEdit {
+  margin-top: 1%;
+}
+
+.AboutMe .aboutEdit .editButton {
+  background-color: transparent;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  font-weight: 700;
+  font-size: 15px;
+
+  text-transform: capitalize;
+  box-shadow: none;
+}
+
+.ExtraInfo .progressInfo {
+  padding: 20px;
+}
+
+.ExtraInfo .progressInfo h1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.AdditionalDetails .addHead {
+  font-size: 18px;
+  font-weight: 700;
+  color: gray;
+}
+
+.AdditionalDetails .addInfo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #5fdf5f;
+}
+
+.addBody {
+  padding-left: 20px;
+}
+
+.profileUserImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  left: 20px;
+  right: 700px;
+  margin: auto;
+  top: 80px;
+  border: 6px solid white;
+  cursor: pointer;
+}
+
+.managerImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* position: absolute; */
+  /* left: 40px;
+  right: 700px;
+  margin: auto;
+  top: 100px; */
+  /* border: 6px solid white; */
+}
+
+.ManagerDetails .addHead {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.ManagerDetails .addInfo {
+  font-size: 15px;
+  font-weight: 700;
+  color: gray;
+}
+
+@media only screen and (min-width: 1020px) {
+  .ManagerDetails .addHead {
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+  }
+  .ManagerDetails .addInfo {
+    font-size: 15px;
+    font-weight: 700;
+    color: gray;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profileUserImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin: auto;
+    top: 80px;
+    border: 6px solid white;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ProfileTabs .tabIndex h5 {
+    font-size: 13px;
+    font-weight: 700;
+    color: gray;
+    cursor: pointer;
+    padding: 14px;
+  }
+
+  .TabsInformation .tabInfo {
+    font-size: 15px;
+  }
+
+  .TabsInformation .tabSection h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .profileUserImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 10px;
+    margin: auto;
+    top: 20px;
+    border: 6px solid white;
+    cursor: pointer;
+  }
+  .ProfileInfoBody {
+    height: 175px;
+    color: black;
+  }
+
+  .ProfileInfoBody .profileName {
+    text-align: left;
+  }
+
+  .ProfileInfoBody .profileName h1 {
+    font-size: 23px;
+    font-weight: 700;
+  }
+
+  .ProfileInfoBody .profileName h1 span {
+    text-align: left;
+  }
+
+  .ProfileInfoBody .profileSub {
+    text-align: left;
+  }
+
+  .ProfileInfoBody .profileSub h5 {
+    color: gray;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .ProfileInfoBody .profileSub h5 span {
+    text-align: left;
+  }
+
+  .ProfileInfoBody .profileLocation {
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .ProfileInfoBody .profileLocation p {
+    font-size: 10px;
+  }
+
+  .ProfileInfoBody .profileLocation p span {
+    background-color: #dfdfdf;
+    padding: 3px;
+    font-weight: 700;
+    border-radius: 3px;
+  }
+}

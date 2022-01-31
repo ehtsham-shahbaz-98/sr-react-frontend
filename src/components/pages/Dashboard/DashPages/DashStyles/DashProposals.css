@@ -1,0 +1,221 @@
+.dash-proposals-body {
+  width: 100%;
+  height: 100vh;
+  padding: 4%;
+  background-color: #ffffff;
+  color: #000000;
+  border-left: 4px solid #eee;
+}
+
+.dash-proposals-body .dash-proposals-heading {
+  text-align: left;
+}
+
+.dash-proposals-body .dash-proposals-heading > h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.dash-proposals-body .dash-proposals-header {
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 1%;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #030303;
+  color: white;
+  border-radius: 10px;
+}
+/* 
+.dash-proposals-body .dash-proposals-header .dash-proposals-id {
+  margin-top: 10%;
+}
+
+.dash-proposals-body .dash-proposals-header .dash-proposals-edit {
+  margin-top: 10%;
+}
+
+.dash-proposals-body .dash-proposals-header .dash-proposals-avatar {
+  margin-top: 10%;
+}
+
+.dash-proposals-body .dash-proposals-header .dash-proposals-profile {
+  margin-top: 10%;
+}
+
+.dash-proposals-body .dash-proposals-header .dash-proposals-details {
+  margin-top: 10%;
+} */
+.dash-proposals-body .dash-proposals-list-body {
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 1%;
+  font-size: 20px;
+  /* font-weight: 700; */
+  background-color: #f6f6f6;
+  color: #000000;
+  border-radius: 10px;
+  /* border: 1px solid #c8c8c8; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.dash-proposals-body
+  .dash-proposals-list-body
+  .dash-proposals-list-edit
+  > button {
+  border: none;
+  background-color: #0044ff;
+  color: white;
+  border-radius: 5px;
+  width: 50%;
+  transition: 0.2s;
+}
+
+.dash-proposals-body
+  .dash-proposals-list-body
+  .dash-proposals-list-edit
+  > button:hover {
+  cursor: pointer;
+  /* background-color: #0044ff;
+  color: white; */
+}
+
+.dash-proposals-body .dash-proposals-list-body .dash-proposals-list-avatar {
+  margin-top: -5%;
+  width: 50px;
+  height: 50px;
+}
+
+.dash-proposals-body
+  .dash-proposals-list-body
+  .dash-proposals-list-avatar
+  .dash-proposals-image {
+  border-radius: 50%;
+  border: 4px solid #1d2f5f;
+}
+
+.dash-proposals-body
+  .dash-proposals-list-body
+  .dash-proposals-list-profile
+  > button {
+  border: none;
+  background-color: #030303;
+  color: white;
+  border-radius: 5px;
+  width: 60%;
+  transition: 0.2s;
+}
+
+.dash-proposals-body
+  .dash-proposals-list-body
+  .dash-proposals-list-profile
+  > button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .dash-proposals-avatar > p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .dash-proposals-id > p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .dash-proposals-edit > p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .dash-proposals-profile > p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .dash-proposals-details > p {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .dash-proposalss-list-avatar > p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .dash-proposalss-list-id > p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .dash-proposalss-list-edit > p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .dash-proposalss-list-profile > p {
+    font-size: 13px;
+    text-align: center;
+  }
+  .dash-proposalss-list-details > p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .dash-proposalss-body
+    .dash-proposalss-list-body
+    .dash-proposalss-list-edit
+    > button {
+    border: none;
+    background-color: #0044ff;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.2s;
+    font-size: 17px;
+  }
+
+  .dash-proposalss-body
+    .dash-proposalss-list-body
+    .dash-proposalss-list-profile
+    > button {
+    border: none;
+    background-color: #030303;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    transition: 0.2s;
+    font-size: 17px;
+  }
+
+  .dash-proposalss-body
+    .dash-proposalss-list-body
+    .dash-proposalss-list-avatar
+    .dash-proposalss-image {
+    border-radius: 50%;
+    border: 3px solid #1d2f5f;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .dash-proposalss-body .dash-proposalss-heading > h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .dash-proposalss-body .dash-proposalss-header {
+    width: 100%;
+    padding-top: 3%;
+    padding-left: 2%;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #030303;
+    color: white;
+    border-radius: 10px;
+  }
+  .dash-proposalss-body .dash-proposalss-list-body {
+    width: 100%;
+    padding-top: 2%;
+    padding-left: 1%;
+    font-size: 20px;
+    /* font-weight: 700; */
+    background-color: #f6f6f6;
+    color: #000000;
+    border-radius: 10px;
+    /* border: 1px solid #c8c8c8; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+}

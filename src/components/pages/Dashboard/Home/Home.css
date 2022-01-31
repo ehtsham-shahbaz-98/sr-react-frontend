@@ -1,0 +1,328 @@
+/* color pallette
+
+.swatch_1{
+    background: #f3f4f2;
+}
+.swatch_2{
+    background: #030303;
+}
+.swatch_3{
+    background: #efd4ba;
+}
+.swatch_4{
+    background: #abcdab;
+}
+.swatch_5{
+    background: #434237;
+}
+.swatch_6{
+    background: #a0a39f;
+}
+.swatch_7{
+    background: #8a8e77;
+}
+
+*/
+
+.dash-home {
+  padding: 3%;
+  width: 100%;
+  /* background-color: #f3f4f2; */
+  background-color: #ffffff;
+  height: auto;
+  /* text-align: center; */
+  border-left: 4px solid #eee;
+}
+
+/* .dash-home .dash-home-header {
+  padding: 2%;
+} */
+
+.dash-home .dash-home-header .dash-welcome-card {
+  background-color: #fdfdfd;
+  padding: 10%;
+  border-radius: 30px;
+}
+
+.dash-home .dash-home-header .dash-home-heading > h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.dash-home .dash-home-header .dash-home-subheading {
+  margin-top: -4%;
+}
+
+.dash-home .dash-home-header .dash-home-subheading > p {
+  font-size: 20px;
+  color: gray;
+}
+
+/* first card */
+
+.dash-home .dash-home-first-card {
+  background-color: #fdfdfd;
+  padding: 10%;
+  border-radius: 30px;
+}
+
+.dash-home .dash-home-first-card .card-heading > h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.dash-home .dash-home-first-card .card-sub-heading {
+  font-size: 15px;
+}
+
+.dash-home .dash-home-first-card .card-data {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  /* text-align: center; */
+}
+
+/* second card */
+
+.dash-home .dash-home-second-card {
+  background-color: #fdfdfd;
+  padding: 10%;
+  border-radius: 30px;
+}
+
+.dash-home .dash-home-second-card .card-heading > h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.dash-home .dash-home-second-card .card-sub-heading {
+  font-size: 15px;
+}
+
+.dash-home .dash-home-second-card .card-data {
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  /* text-align: center; */
+}
+
+/* third card */
+
+.dash-home .dash-home-third-card {
+  background-color: #fff5ee;
+  padding: 10%;
+  border-radius: 50px;
+}
+
+.dash-home .dash-home-third-card .card-heading > h5 {
+  font-weight: 700;
+  font-size: 30px;
+  /* text-align: center; */
+}
+
+.dash-home .dash-home-third-card .card-sub-heading {
+  font-size: 20px;
+}
+
+.dash-home .dash-home-third-card .card-data {
+  color: black;
+  font-weight: 700;
+  padding: 1%;
+
+  /* font-size: 30px; */
+  /* text-align: center; */
+}
+
+/* fourth card */
+
+.dash-home .dash-home-fourth-card {
+  /* background-color: #ffc2db; */
+  background-color: #f2f1fa;
+  padding: 10%;
+  border-radius: 50px;
+}
+
+.dash-home .dash-home-fourth-card .card-heading > h5 {
+  font-weight: 700;
+  font-size: 30px;
+  /* text-align: center; */
+}
+
+.dash-home .dash-home-fourth-card .card-sub-heading {
+  font-size: 20px;
+}
+
+.dash-home .dash-home-fourth-card .card-data {
+  /* color: black; */
+  font-weight: 700;
+  /* font-size: 30px; */
+  padding: 1%;
+  /* text-align: center; */
+}
+
+/* fifth card */
+
+.dash-home .dash-home-fifth-card {
+  background-color: #f0fff0;
+  padding: 10%;
+  border-radius: 50px;
+}
+
+.dash-home .dash-home-fifth-card .card-heading > h5 {
+  font-weight: 700;
+  font-size: 30px;
+  /* text-align: center; */
+}
+
+.dash-home .dash-home-fifth-card .card-sub-heading {
+  font-size: 20px;
+}
+
+.dash-home .dash-home-fifth-card .card-data {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  /* text-align: center; */
+}
+
+/* sixth card */
+
+.dash-home .dash-home-sixth-card {
+  background-color: #f5f5f5;
+  padding: 10%;
+  border-radius: 50px;
+}
+
+.dash-home .dash-home-sixth-card .card-heading > h5 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.dash-home .dash-home-sixth-card .card-sub-heading {
+  font-size: 20px;
+}
+
+.dash-home .dash-home-sixth-card .card-data {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  /* text-align: center; */
+}
+
+/* seventh card */
+
+.dash-home .dash-home-seventh-card {
+  background-color: #eaecff;
+  padding: 10%;
+  border-radius: 50px;
+}
+
+.dash-home .dash-home-seventh-card .card-heading > h5 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.dash-home .dash-home-seventh-card .card-sub-heading {
+  font-size: 20px;
+}
+
+.dash-home .dash-home-seventh-card .card-data {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  /* text-align: center; */
+}
+
+/* eighth card */
+
+.dash-home .dash-home-eighth-card {
+  background-color: #f2ffe6;
+  padding: 10%;
+  border-radius: 50px;
+}
+
+.dash-home .dash-home-eighth-card .card-heading > h5 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.dash-home .dash-home-eighth-card .card-sub-heading {
+  font-size: 20px;
+}
+
+.dash-home .dash-home-eighth-card .card-data {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  /* text-align: center; */
+}
+
+/* ninth card large */
+
+.dash-home .dash-home-ninth-header {
+  padding: 4%;
+  background-color: #f6f6f6;
+  border-radius: 50px;
+}
+
+.dash-home .dash-home-ninth-card {
+  /* background-color: #e7e7e7; */
+  padding: 5%;
+  border-radius: 50px;
+}
+
+.dash-home .dash-home-ninth-card .card-icon {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #dddddd;
+  text-align: center;
+  font-weight: 700;
+}
+
+.dash-home .dash-home-ninth-card .card-heading > h5 {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.dash-home .dash-home-ninth-card .card-sub-heading {
+  margin-top: 10%;
+  font-size: 15px;
+}
+
+.dash-home .dash-home-ninth-card .card-sub-heading2 {
+  margin-top: -10%;
+  font-size: 17px;
+}
+
+.dash-home .dash-home-ninth-card .card-data {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 5%;
+  /* text-align: center; */
+}
+
+/* tenth card */
+
+.dash-home .dash-home-tenth-card {
+  background-color: #d8d8d8;
+  padding: 10%;
+  border-radius: 50px;
+}
+
+.dash-home .dash-home-tenth-card .card-heading > h5 {
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.dash-home .dash-home-tenth-card .card-sub-heading {
+  font-size: 20px;
+}
+
+.dash-home .dash-home-tenth-card .card-data {
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  /* text-align: center; */
+}

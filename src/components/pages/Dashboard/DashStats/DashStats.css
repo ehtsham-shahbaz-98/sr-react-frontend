@@ -1,0 +1,55 @@
+.dash-stats-container {
+  /* background-color: #030303; */
+  height: auto;
+  width: 100%;
+  padding: 5%;
+}
+
+.dash-stats-container .dash-stats-box {
+  background-color: #030303;
+  height: 780px;
+  width: 100%;
+  border-radius: 30px;
+  padding: 12%;
+}
+
+/* .dash-stats-container .dash-stats-box .dash-stats-heading {
+  text-align: center;
+  margin-top: 10%;
+} */
+
+.dash-stats-container .dash-stats-box .dash-stats-heading > h5 {
+  /* text-align: center; */
+  color: #f3f4f2;
+  font-weight: 700;
+}
+
+.dash-stats-container .dash-stats-box .dash-stats-icon {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #f3f4f2;
+  text-align: center;
+}
+/* 
+.dash-stats-container .dash-stats-box .dash-stats-heading2 {
+  text-align: center;
+} */
+
+.dash-stats-container .dash-stats-box .dash-stats-heading2 > h6 {
+  /* text-align: center; */
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* .dash-stats-container .dash-stats-box .dash-stats-subheading {
+  text-align: center;
+} */
+
+.dash-stats-container .dash-stats-box .dash-stats-subheading > p {
+  /* text-align: center; */
+  color: #c0c0c0;
+  font-size: 15px;
+  font-weight: 700;
+}
